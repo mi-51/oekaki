@@ -1,0 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #444;
+  background-color: hsl(0, 0%, 96%);
+}
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  user-select: none;
+  margin: 0 auto;
+}
+#select_color {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+#pallet td {
+  width: 30px;
+  height: 30px;
+}
+#canvas td {
+  width: 10px;
+  height: 10px;
+}
+.button{
+  text-align: center;
+  margin-top: 10px;
+}
+
